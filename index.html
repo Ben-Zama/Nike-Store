@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Air Max</title>
+    <link rel="shortcut icon" href="src/assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="src/css/output.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/function.js" defer></script>
+</head>
+<body>
+    
+    <div id="main">
+
+        <!-- Header -->
+        <div class="w-full h-1/10 flex justify-between items-center">
+            <div class="w-2/6 md:w-1/6 h-full flex justify-center">
+                <img class="w-1/2 h-full object-contain" src="src/assets/icon.png" alt="">
+            </div>
+            <nav class="hidden md:flex justify-center w-4/6">
+                <ul id="nav" class="flex justify-center items-center gap-5 lg:gap-14 text-white text-xl">
+                    <li class="cursor-pointer hover:text-red-500">Home</li>
+                    <li class="cursor-pointer hover:text-red-500">About</li>
+                    <li class="cursor-pointer hover:text-red-500">Products</li>
+                    <li class="cursor-pointer hover:text-red-500">Support</li>
+                </ul>
+            </nav>
+            <div id="icons" class="w-3/6 md:w-1/6 h-full flex items-center justify-evenly text-xl md:text-3xl text-white">
+                <div class="w-1/3 flex justify-center cursor-pointer">
+                    <i id="dark" class="bi bi-circle-half lg:text-xl"></i>
+                </div>
+                <div class="w-1/3 flex justify-center cursor-pointer">
+                    <i class="bi bi-cart3 lg:text-xl"></i>
+                </div>
+                <div class="w-1/3 h-full flex justify-center cursor-pointer md:hidden">
+                    <div id="hamburger">
+                        <span class="span"></span>
+                        <span class="span"></span>
+                        <span class="span"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+         <div id="sidebar" class="z-40 absolute top-0 -left-full w-4/5 h-full bg-zinc-700 overflow-hidden">
+            <div class="w-full h-2/6 flex justify-center items-center">
+                <img class="w-1/2 h-full object-contain" src="src/assets/icon.png" alt="">
+            </div>
+            <ul class="w-full h-3/6 flex flex-col justify-evenly items-center text-red-500">
+                <li>Home</li>
+                <li>About</li>
+                <li>Products</li>
+                <li>Support</li>
+            </ul>
+         </div>
+
+         <!-- Body -->
+         <div class='relative w-full h-9/10'>
+            <div class="lg:absolute lg:top-20 lg:left-10 w-full lg:w-1/3 h-1/6 flex justify-center items-center font-bold text-center text-5xl md:text-7xl">
+                <h1 id="title" class="w-2/3 md:w-full text-wrap text-white">NIKE AIR MAX</h1>
+            </div>
+            <div class="relative lg:absolute lg:top-1/2 lg:-translate-y-1/2 w-full h-3/6 lg:h-full">
+                <img class="absolute z-10 w-full h-full object-contain" src="src/assets/shoe clen.png" alt="">
+                <p id="trans" class="line absolute z-0 top-1/2 -translate-y-1/2 left-1/2 text-6xl md:text-9xl opacity-25">JUST <br> DO <br> IT.</p>
+            </div>
+            <div class="lg:absolute z-30 lg:bottom-10 w-full lg:w-1/6 h-1/6 flex justify-center items-center">
+                <div class="w-1/3 lg:w-full h-1/3 lg:h-1/2 flex justify-center items-center bg-red-500 text-white lg:text-xl cursor-pointer">
+                    Explore Now
+                </div>
+            </div>
+            <div class="lg:absolute z-20 lg:bottom-0 w-full h-1/6 flex justify-center items-center gap-5 lg:gap-20">
+                <button class="w-1/3 md:w-1/4 lg:w-1/6 h-10 md:h-12 lg:h-14 border border-red-500 text-red-500 rounded-lg text-base lg:text-xl">&dollar;1595</button>
+                <button class="w-1/3 md:w-1/4 lg:w-1/6 h-10 md:h-12 lg:h-14 bg-red-500 border border-red-500 text-white rounded-lg text-sm lg:text-base">ADD TO CART</button>
+            </div>
+
+         </div>
+
+
+    </div>
+
+</body>
+</html>
