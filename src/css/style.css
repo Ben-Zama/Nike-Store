@@ -22,6 +22,7 @@
     justify-content: center;
     gap: 5px;
     position: relative;
+    transition: .5s;
 }
 #hamburger span {
     width: 75%;
