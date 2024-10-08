@@ -27,6 +27,7 @@
     width: 75%;
     height: 3px;
     background-color: white;
+    transition: .25s;
 }
 .hamburger :nth-of-type(1) {
     transform: rotate(-45deg);
